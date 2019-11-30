@@ -1,0 +1,139 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image:url("../images/blue.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+}
+.content-table{
+	
+    border-collapse: collapse;
+    margin:25px 0;
+    font-size: 0.9cm;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-align:center;
+    margin-left:400px;
+    margin-top:150px;
+    width:40%;
+    height:20%;
+}
+.content-table thead tr{
+
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-size:20px;
+
+}
+.content-table th,
+.content-table td{
+padding: 8px 10px;
+
+
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-size:18px;
+    
+
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+
+
+}
+.content-table tbody tr:nth-of-type(odd){
+    background-color: white;
+
+
+}
+.content-table tbody tr :last-of-type{
+    
+}
+.update{
+	background-color:green;
+	color:white;
+	width:50px;
+	height:30px;
+	position:relative;
+	margin-left: 10px;
+	
+	
+	
+}
+.delete{
+	background-color:red;
+	color:white;
+		width:50px;
+	height:30px;
+	position:relative;
+	
+	
+	
+}
+.delete:hover{
+	background-color:rgb(248, 110, 195);
+	cursor:pointer;
+	color:black;
+}
+.update:hover{
+	background-color: rgb(74, 243, 74);
+	cursor:pointer;
+	color:black;
+}
+.locate{
+	margin-left:450px;
+	color:white;
+}
+.check{
+	 border-collapse: collapse;
+    margin:25px 0;
+    font-size: 0.9cm;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-align:center;
+   margin-left:50px;
+    width:40%;
+    height:20%;
+    
+	
+}
+.textmed{
+	font-size:30px;
+	color:white;
+}
+input[type="checkbox"]{
+	width:40px;
+	height:20px;
+	cursor:pointer;
+	-webkit-appearence:none;
+	appearence:none;
+	background:rose;
+	border:#7f83a2 1px solid;
+	
+	
+}
+#butt{
+	background-color:green;
+	color:white;
+	cursor:pointer;
+	border-radius:50%;
+	border-width:1px;
+	
+	
+}
+#butt:hover{
+	background-color:#00ff40;
+	color:black;
+	width:50px;
+	height:30px;
+	border:1px;
+}
+.text{
+	margin-left:390px;
+}

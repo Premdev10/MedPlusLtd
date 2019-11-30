@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url(..//images/blue.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+	.simple-form{
+	text-align: center;
+	margin: 100px 0px;
+	margin-left: 450px;
+	margin-top: 200px;
+
+
+}
+#updatestock{
+	width: 50%;
+	
+	opacity: 0.8;
+	padding: 50px 0px;
+
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#butt{
+	width: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+	background-color: rgb(29, 206, 250);
+	border:2px solid #01010c;
+	color: alicoblue;
+	font-size: 18px;
+}
+#butt:hover{
+	background-color: blue;
+	cursor: pointer;
+	color: white;
+}
+.text{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 500px;
+}

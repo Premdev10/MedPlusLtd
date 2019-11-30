@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image:url("../images/blue.jpg");
+}
+::placeholder{
+	font-size:20px;
+	opacity:1;
+	font-color:black;
+}

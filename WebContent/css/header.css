@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:url("../images/blue.jpg");
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 120px;
+	height: auto;
+
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+ul li.active a{
+	background-color: #4CAF50;;
+	color: #fff;
+
+}.button{
+	position: absolute;
+	top: 60%;
+	left:28%;
+	margin-left: 150px;
+	transform: translate(-50%,-50%);
+
+}
+.btn{
+	border:1px solid #fff;
+	padding:10px 60px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+
+	
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+	transition: 0.6s ease
+}
+.text{
+	position: absolute;
+	top: 20%;
+	left: 6%;
+	color: white;
+	font-family:  Verdana, Geneva, Tahoma, sans-serif;
+
+}
